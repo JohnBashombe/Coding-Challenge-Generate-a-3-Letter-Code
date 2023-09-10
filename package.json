@@ -1,0 +1,11 @@
+{
+  "name": "coding-challenge-generate-a-3-letter-code",
+  "version": "1.0.0",
+  "description": "Welcome to the 3-Character Code Generation Challenge! This challenge tests your ability with **string manipulation**, **random number generation**, and **boundary handling** in JavaScript. Dive in and show your skills! 🌟",
+  "main": "src/challenge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ntavigwa Bashombe",
+  "license": "MIT"
+}

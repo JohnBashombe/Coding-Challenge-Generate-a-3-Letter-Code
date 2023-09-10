@@ -4,6 +4,9 @@
  * @returns {string} - The generated 3-character code
  */
 const generateCode = (inputStr) => {
+    // Remove spaces and special characters, only allow alphanumeric characters
+    inputStr = inputStr.replace(/[^a-zA-Z0-9]/g, '');
+
     // Ensuring the input string meets the required constraints
     if (!inputStr || inputStr.length < 3 || inputStr.length > 100) {
         throw new Error('Invalid input string. Ensure its length is between 3 and 100.');
@@ -13,11 +16,11 @@ const generateCode = (inputStr) => {
     const firstChar = inputStr[0];
 
     // Getting a random index for the second character, which should be in the range [1, inputStr.length - 2]
-    const secondCharIndex = getRandomInt(1, inputStr.length - 1);
+    const secondCharIndex = getRandomInt(1, inputStr.length - 2);
     const secondChar = inputStr[secondCharIndex];
 
     // Getting a random index for the third character, which should come after the second character's position
-    const thirdCharIndex = getRandomInt(secondCharIndex + 1, inputStr.length);
+    const thirdCharIndex = getRandomInt(secondCharIndex + 1, inputStr.length-1);
     const thirdChar = inputStr[thirdCharIndex];
 
     // Constructing the final code using the obtained characters
@@ -37,5 +40,7 @@ const getRandomInt = (min, max) => {
 };
 
 // Example usage:
-// const code = generateCode('challenge');
-// console.log(code); // could output "cae", "clg", "cne", etc.
+const code = generateCode('coding challenge');
+console.log(code)
+// could output "cae", "clg", "cne", etc.
+
