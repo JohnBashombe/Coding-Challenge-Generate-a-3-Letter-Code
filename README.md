@@ -13,7 +13,7 @@ Given a string with a length between 3 and 100 inclusive, your task is to genera
 ## 📜 Input 📜
 
 - A string `s` 
-  - Constraints: \(3 \leq |s| \leq 100\)
+  - Constraints: 3 ≤ |s| ≤ 100
 
 ---
 
