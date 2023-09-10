@@ -49,6 +49,22 @@ The solution should be implemented in **JavaScript**. We're looking forward to s
 
 ---
 
+## 🔧 Requirements 🔧
+
+- **Node.js**: Ensure you have Node.js installed on your machine.
+- **npm**: Node Package Manager should also be installed.
+
+---
+
+## 🚀 Running the Project 🚀
+
+To run the project, navigate to the project directory and execute the following command:
+```
+node src/challenge.js
+```
+
+---
+
 ## 🖋 Author 🖋
 
 **Ntavigwa Bashombe** - Feel free to connect, share feedback, or ask any questions. Your contributions and insights are always welcome!
