@@ -2,13 +2,13 @@
 
 Welcome to the 3-Character Code Generation Challenge! This challenge tests your ability with **string manipulation**, **random number generation**, and **boundary handling** in JavaScript. Dive in and show your skills! 🌟
 
----
+----
 
 ## 🎯 Objective 🎯
 
 Given a string with a length between 3 and 100 inclusive, your task is to generate a unique 3-character code based on specific rules.
 
----
+----
 
 ## 📜 Input 📜
 
